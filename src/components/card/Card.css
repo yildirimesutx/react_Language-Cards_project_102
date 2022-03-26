@@ -1,13 +1,14 @@
 .cards-area-container {
     height: 41rem;
     width: 25rem;
-    background-color: #f48b29;
+    /* background-color: #f48b29; */
     margin: 0 auto;
     border-radius: 1rem;
     display: grid;
     grid-template-rows: 10% 90%;
     grid-template-areas: "top" "bottom";
     overflow: hidden;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
  }
 
  .language-title {
@@ -29,10 +30,11 @@
  .bars{
      height: 41rem;
      width: 5rem;
-     background-color: #53c1de;
+     /* background-color: #53c1de; */
      position: relative;
      transform: rotate(-45deg);
      top: -40rem;
      left: 10rem;
+     background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
      
  }
