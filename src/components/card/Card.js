@@ -6,7 +6,7 @@ const Card = () => {
   return (
     <div className="cards-area-container">
       <div className="bars"></div>
-      <h1 className="language-title">Languages</h1>
+      <h1 className="language-title">Top 8 Programming Languages</h1>
       <div className="cards-container">
         {languages.map((item, index) => {
           return <Item card={item} key={index} />;
