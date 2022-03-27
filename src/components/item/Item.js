@@ -3,9 +3,12 @@ import "./Item.css";
 
 const Item = ({ card }) => {
   const [showLogo, setShowLogo] = useState(true);
-
+ 
   return (
-    <div className="card" onClick={() => setShowLogo(!showLogo)}>
+    <div className="card" onClick={() => {setShowLogo(!showLogo)
+      setTimeout(()=>{setShowLogo(showLogo)},3000)
+    }}>
+      
       {showLogo ? (
         <div>
           <img className="card-logo" src={card.img} alt="logo" />
